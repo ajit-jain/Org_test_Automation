@@ -7,7 +7,7 @@ GitRepo:
   name: GitRepoRes
   type: GitRepo
   gitProvider: s_gitHub
-  path: jfbetapipeorg/Org_test_Automation
+  path:  ajit-jain/Org_test_Automation
   files:
     include: tests/core/helmdeploy/simplehelm.*
   branches:
