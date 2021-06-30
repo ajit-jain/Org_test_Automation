@@ -3,7 +3,7 @@ resources:
     type: GitRepo
     configuration:
       gitProvider: s_gitHub
-      path:  ajit-jain/Org_test_Automation
+      path: jfbetapipeorg/Org_test_Automation
       branches:
         include: master
 
