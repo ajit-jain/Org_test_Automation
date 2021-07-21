@@ -1,8 +1,0 @@
-pipelines:
-  - name: pipeline_A_NodePool
-    steps:
-      - name: A_NodePool
-        type: Bash
-        execution:
-          onExecute:
-            - echo "hi"

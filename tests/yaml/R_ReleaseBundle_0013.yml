@@ -1,7 +1,0 @@
-resources:  
-  - name: my_releaseBundle
-    type: ReleaseBundle
-    configuration:
-      sourceDistribution: dist_test
-      name: myRel
-      isSigned: false  

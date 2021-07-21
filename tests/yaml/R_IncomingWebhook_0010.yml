@@ -1,5 +1,0 @@
-resources:
-  #- name: r_IncomingWebhook
-    type: IncomingWebhook
-    configuration:
-      webhookName: i_incomingWebhook
