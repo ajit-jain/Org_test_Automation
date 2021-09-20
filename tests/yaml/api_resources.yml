@@ -1,0 +1,23 @@
+template: true
+valuesFilePath: ../values/gitRepoValues.yml
+
+resources:
+ - name: r_gitHub
+   type: GitRepo
+   configuration:
+     gitProvider: my_github
+     path: {{ .Values.GitHub.Org_test_Automation.path }}
+
+pipelines:
+ - name: sample_pipelines
+   steps:
+   - name: api_PipelineStepConnection
+     type: Bash
+     configuration:
+       integrations:
+         - name: s_gitHub
+       inputResources:
+         - name: r_gitHub
+     execution:
+       onExecute:
+         - echo "hi"
