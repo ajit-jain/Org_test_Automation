@@ -19,6 +19,8 @@ GitLab:
     path: jfbeta/test_automation
   jfrogtesting:
     path: jfbeta/jfrogtesting
+  templates:
+    path: jfbeta/templates
 
 BitbucketCloud:
   jfrogtesting:
@@ -35,6 +37,8 @@ BitbucketServer:
     path: PIP/test_automation
   test:
     path: ~ranjanks/test
+  templates:
+    path: PIP/templates
 
 Projects:
   FirstProjectKey: first
