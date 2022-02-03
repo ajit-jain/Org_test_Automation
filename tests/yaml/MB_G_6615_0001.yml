@@ -1,7 +1,7 @@
 pipelines:
-  - name: P_PS_6615_0002
+  - name: MB_G_6615_0001
     steps:
-      - name: P_PS_S_6615_0002
+      - name: MB_G_S_6615_0001
         type: Bash
         execution:
           onExecute:
